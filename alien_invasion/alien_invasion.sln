@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "alien_invasion", "alien_invasion.pyproj", "{858A4E37-52AC-4A9E-9585-0D545C8E1978}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "项目2", "..\..\..\项目2\项目2.pyproj", "{4C97E490-D15C-4787-A477-71D5101E6466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858A4E37-52AC-4A9E-9585-0D545C8E1978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858A4E37-52AC-4A9E-9585-0D545C8E1978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C97E490-D15C-4787-A477-71D5101E6466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C97E490-D15C-4787-A477-71D5101E6466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64B4F7F1-68E1-48A8-8318-A3135E366FA1}
+	EndGlobalSection
+EndGlobal
