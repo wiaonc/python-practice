@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{858a4e37-52ac-4a9e-9585-0d545c8e1978}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>start.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="start.py" />
+    <Compile Include="alien.py" />
+    <Compile Include="bullet.py" />
+    <Compile Include="button.py" />
+    <Compile Include="data\datatest.py" />
+    <Compile Include="game_functions.py" />
+    <Compile Include="game_stats.py" />
+    <Compile Include="scoreboard.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="ship.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\alien.png" />
+    <Content Include="images\alien2.bmp" />
+    <Content Include="images\alien2.png" />
+    <Content Include="images\historybg.png" />
+    <Content Include="images\historyscore.png" />
+    <Content Include="images\ranking.png" />
+    <Content Include="images\reset.png" />
+    <Content Include="images\return.png" />
+    <Content Include="images\ship.bmp" />
+    <Content Include="images\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
+    <Folder Include="images" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
