@@ -31,7 +31,7 @@ frequencies=[results.count(value) for value in range(1, die.num_sides*die1.num_s
 results1=[die.roll()*die1.roll() for roll_num in range(1000)]
 frequencies1=[results1.count(value) for value in range(1, die.num_sides*die1.num_sides+1)]
 plt.figure(dpi=128,figsize=(10, 6))
-plt.plot(rw.y_values,frequencies,linewidth = 1)
-plt.scatter(frequencies,rw.y_values, c=y, cmap=plt.cm.Reds, edgecolor='none', s=20)
+plt.plot(rw.y_values,c='red',linewidth=2)
+plt.scatter(y,rw.y_values, c=y, cmap=plt.cm.Reds, edgecolor='none', s=20)
 plt.show()
 

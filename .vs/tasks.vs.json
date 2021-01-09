@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "任务-start",
+      "appliesTo": "alien_invasion/start.py",
+      "type": "launch"
+    },
+    {
+      "taskName": "任务-练习2",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
