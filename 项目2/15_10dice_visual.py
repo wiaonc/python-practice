@@ -23,8 +23,11 @@ hist = pygal.Bar()
 hist.title = "Results of rolling one D6 1000 times."
 #[x for x in frequencies]
 #[x+2 for x in range(int(die.num_sides+die1.num_sides-1))]
+#x轴标签
 hist.x_labels = [x+1 for x in range(int(die.num_sides*die1.num_sides))]
+#x轴标题
 hist.x_title = 'Result'#[x for x in frequencies]
+
 hist.y_title = "Frequency of Result"
 hist.add('D6', frequencies)
-hist.render_to_file('die_visual.svg')
+hist.render_to_file('15_10die_visual.svg')
